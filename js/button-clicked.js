@@ -11,11 +11,11 @@ document.getElementById('parallelogram-calc').addEventListener('click',function(
     console.log('clicked')
 });
 document.getElementById('rhombus-calc').addEventListener('click',function(){
-    areaCalculation('rhombus-value-b','rhombus-value-h','parallelogram')
+    areaCalculation('rhombus-value-d1','rhombus-value-d2','parallelogram')
     console.log('clicked')
 });
 document.getElementById('pentagon-calc').addEventListener('click',function(){
-    areaCalculation('pentagon-value-d1','pentagon-value-d2','pentagon')
+    areaCalculation('pentagon-value-p','pentagon-value-b','pentagon')
     console.log('clicked')
 });
 document.getElementById('ellipse-calc').addEventListener('click',function(){
